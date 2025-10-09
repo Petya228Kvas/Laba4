@@ -12,11 +12,8 @@ int main(void){
     scanf("%f", &gallon);
     printf("Количество миль пройденных на одном галлоне: %.1f\n", mile/gallon);
     km = mile * ONE_MILE_KILOM;
-    printf("KM: %.1f\n", km);
     liter = gallon * ONE_GALLON_LITER;
-    printf("LITER: %.1f\n", liter); 
     km_on_liter = liter/km;
-    printf("KM/LITER: %.1f\n", km_on_liter);
     printf("Количество литров на 100 км: %.1f\n", km_on_liter*100);
     
     
